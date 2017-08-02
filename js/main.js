@@ -25,6 +25,7 @@ document.getElementById('add-task-btnEl2').addEventListener('click', function(){
         addItem(value);
     }
     document.getElementById('task-inputEl').classList.remove('active');
+    document.getElementById('add-task-btnEl2').classList.remove('active');
 });
 
 document.getElementById('task-inputEl').addEventListener('keydown', function(e) {

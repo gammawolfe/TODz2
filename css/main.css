@@ -11,8 +11,6 @@ nav{
     background: none;
 }
 
-
-
 #add-task-btnEl1{
     width: 50px;
     height: 50px;
@@ -47,6 +45,8 @@ nav{
 #add-task-btnEl1 svg .fill {
     fill: #25b99a;
 }
+
+
 
 #add-task-btnEl2{
     width: 50px;
@@ -95,8 +95,7 @@ nav{
     top:20px;
     right:15px;
     float: right;
-    position: absolute;
-    
+    position: absolute;    
     
     -webkit-transition: width 2s; /* Safari */
     transition: width 2s;
